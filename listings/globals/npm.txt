@@ -1,0 +1,11 @@
+$ npm search express //<co id="callout-globals-npm-1" />
+express               Sinatra inspired web development framework
+$ npm install express
+express@x.x.x ./node_modules/express
+├── methods@x.x.x
+└── (Several more dependencies appear here)
+
+$ node
+> var express = require('express'); //<co id="callout-globals-npm-2" />
+> typeof express
+'function'

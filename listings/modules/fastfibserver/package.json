@@ -1,0 +1,16 @@
+{
+  "name": "fastfibserver",
+  "version": "0.0.0",
+  "description": "Test fastfibserver",
+  "main": "server.js",
+  "dependencies": {
+    "fastfib": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

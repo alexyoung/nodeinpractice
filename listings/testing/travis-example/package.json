@@ -1,0 +1,11 @@
+{
+  "name": "travis-example",
+  "version": "0.0.0",
+  "description": "A sample project for setting up Travis CI and Node.",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Alex R. Young",
+  "license": "MIT"
+}

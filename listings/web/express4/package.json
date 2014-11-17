@@ -1,0 +1,20 @@
+{
+  "name": "express4-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "method-override": "^1.0.2",
+    "serve-favicon": "^2.0.0",
+    "cookie-parser": "^1.1.0",
+    "csurf": "^1.2.0",
+    "express-session": "^1.2.1",
+    "body-parser": "^1.2.2",
+    "express": "^4.4.0"
+  }
+}

@@ -1,0 +1,22 @@
+#!/bin/sh
+
+case "$1" in
+  '') nprof=../nprof ;;
+  /*) nprof="$1" ;;
+  *) nprof="$PWD/$1" ;;
+esac
+
+cd "`dirname "$0"`"
+
+cat \
+  nprof-stub.js \
+  v8/splaytree.js \
+  v8/codemap.js \
+  v8/csvparser.js \
+  v8/consarray.js \
+  v8/profile.js \
+  v8/profile_view.js \
+  v8/logreader.js \
+  v8/tickprocessor.js \
+  v8/tickprocessor-driver.js > "$nprof" || exit 1
+chmod 755 "$nprof" || exit 2

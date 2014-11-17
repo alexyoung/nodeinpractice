@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var host = window.document.location.host.replace(/:.*/, '');
+var ws = new WebSocket('ws://' + host + ':3000');
+
+setInterval(function() {
+  ws.send('{ "type": "getSession" }'); //<co id="callout-web-websockets-2-1" />
+}, 1000);
+
+ws.onmessage = function(event) {
+  document.getElementById('message').innerHTML = event.data;
+};
+</script>
+</head>
+<body>
+  <h1>WebSocket sessions</h1>
+  <div id='message'></div><br>
+</body>
+</html>

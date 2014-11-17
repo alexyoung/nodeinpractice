@@ -1,0 +1,8 @@
+$ npm search web framework //<co id="callout-globals-npm-2" />
+$ npm install express
+$ node
+> require('express'); //<co id="callout-globals-npm-2" />
+{ [Function: createApplication]
+  version: '3.0.3',
+  mime:
+// ...

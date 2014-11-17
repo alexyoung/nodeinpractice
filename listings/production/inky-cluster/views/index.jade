@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 Inky
+
+  each post in posts
+    h2= post.title
+    p= post.content

@@ -1,0 +1,10 @@
+{ "position": 0, "letter": "a" }
+{ "position": 1, "letter": "b" }
+{ "position": 2, "letter": "c" }
+{ "position": 3, "letter": "d" }
+{ "position": 4, "letter": "e" }
+{ "position": 5, "letter": "f" }
+{ "position": 6, "letter": "g" }
+{ "position": 7, "letter": "h" }
+{ "position": 8, "letter": "i" }
+{ "position": 9, "letter": "j" }

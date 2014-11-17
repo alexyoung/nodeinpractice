@@ -1,0 +1,17 @@
+{
+  "ignore": [ <co id="callout-web-nodemon-json-1" />
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "execMap": { <co id="callout-web-nodemon-json-2" />
+    "js": "node --harmony"
+  },
+  "watch": [ <co id="callout-web-nodemon-json-3" />
+    "test/fixtures/",
+    "test/samples/"
+  ],
+  "env": { <co id="callout-web-nodemon-json-4" />
+    "NODE_ENV": "development"
+  },
+  "ext": "js json"
+}

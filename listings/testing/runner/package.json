@@ -1,0 +1,13 @@
+{
+  "name": "testrunner",
+  "version": "0.0.0",
+  "description": "A test runner",
+  "main": "test-runner.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test-runner.js test.js test2.js"
+  },
+  "author": "",
+  "license": "MIT"
+}

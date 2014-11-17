@@ -1,0 +1,6 @@
+sudo mkdir /etc/service/nodeapp
+sudo touch /etc/service/nodeapp/run
+sudo chmod 700 /etc/service/nodeapp/run
+
+
+sudo sv start /etc/service/nodeapp

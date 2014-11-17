@@ -1,0 +1,17 @@
+{
+  "name": "express-middleware",
+  "version": "0.0.0",
+  "description": "Middleware examples",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alex R. Young",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.4.8",
+    "xml2json": "~0.3.2",
+    "validate": "~2.1.2"
+  }
+}

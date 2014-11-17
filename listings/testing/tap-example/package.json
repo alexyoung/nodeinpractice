@@ -1,0 +1,14 @@
+{
+  "name": "tap-example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tap/bin/tap.js test/*_test.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "tap": "~0.4.4"
+  }
+}

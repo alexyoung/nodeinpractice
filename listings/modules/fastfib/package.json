@@ -1,0 +1,41 @@
+{
+  "name": "fastfib",
+  "private": true,
+  "version": "0.1.1",
+  "description": "Calculates a Fibonacci number as fast as possible with only JavaScript.",
+  "main": "index.js",
+  "bin": {
+    "fastfib": "./bin/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "benchmark": "1.0.0"
+  },
+  "optionalDependencies": {
+    "bignum": "^0.6.2"
+  },
+  "scripts": {
+    "test": "node test && node benchmark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wavded/fastfib.git"
+  },
+  "keywords": [
+    "fibonacci",
+    "fast"
+  ],
+  "author": "Marc Harter <wavded@gmail.com> (http://wavded.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wavded/fastfib/issues"
+  },
+  "homepage": "https://github.com/wavded/fastfib",
+  "engines": {
+    "node": "0.10.x"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "websocket-sessions",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex R. Young",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "~0.4.31",
+    "express": "~3.4.8"
+  }
+}

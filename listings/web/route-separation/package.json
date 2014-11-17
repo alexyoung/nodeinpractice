@@ -1,0 +1,19 @@
+{
+  "name": "route-separation",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "test": "./node_modules/.bin/mocha test/**/*.js"
+  },
+  "author": "Alex R. Young",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.4.8"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0",
+    "supertest": "~0.9.0"
+  }
+}

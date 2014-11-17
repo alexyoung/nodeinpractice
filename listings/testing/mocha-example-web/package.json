@@ -1,0 +1,16 @@
+{
+  "name": "mocha-example-web",
+  "version": "0.0.0",
+  "description": "A Mocha example for web applications",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "supertest": "~0.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --slow 500 test/*.js"
+  },
+  "author": "Alex R. Young",
+  "license": "MIT"
+}

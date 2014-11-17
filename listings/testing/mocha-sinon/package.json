@@ -1,0 +1,18 @@
+{
+  "name": "mocha-sinon",
+  "version": "0.0.0",
+  "description": "An example using Sinon.JS and Mocha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/**/*_test.js"
+  },
+  "author": "Alex R. Young",
+  "license": "MIT",
+  "devDependencies": {
+    "sinon": "~1.7.3",
+    "mocha": "~1.13.0"
+  },
+  "dependencies": {
+    "redis": "~0.9.0"
+  }
+}
