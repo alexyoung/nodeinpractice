@@ -1,2 +1,2 @@
 strip_xml_comments:
-	find . -type f -print0 | xargs -0 sed -i 's/ \/\/<co id="".*$//g'
+	@find -E listings/ -type f -regex '.*\.(js|txt|txt2|html)' -exec sed -i '' -e 's/ \/\/<co id="".*//g' {} +
