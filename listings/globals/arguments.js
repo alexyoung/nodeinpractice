@@ -12,8 +12,14 @@ function readFile(file) {
   require('fs').createReadStream(file).pipe(process.stdout); //<co id="listing-globals-arguments-2" />
 }
 
-if (process.argv.length > 0) {
+// process.argv
+// 0 : 'node'
+// 1 : __filename
+// 2 : ...
+if (process.argv.length > 2) {
   process.argv.forEach(function(arg, index) {
-    args[arg].apply(this, process.argv.slice(index + 1)); //<co id="listing-globals-arguments-3" />
+    if(typeof args[arg] != 'undefined'){
+      args[arg].apply(this, process.argv.slice(index + 1)); //<co id="listing-globals-arguments-3" />
+    }
   });
 }
