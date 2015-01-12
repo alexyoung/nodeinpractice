@@ -14,6 +14,8 @@ function readFile(file) {
 
 if (process.argv.length > 0) {
   process.argv.forEach(function(arg, index) {
-    args[arg].apply(this, process.argv.slice(index + 1)); //<co id="listing-globals-arguments-3" />
+    if (args[arg]) {
+      args[arg].apply(this, process.argv.slice(index + 1)); //<co id="listing-globals-arguments-3" />
+    }
   });
 }
