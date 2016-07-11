@@ -1,8 +1,8 @@
 var CountStream = require('./countstream'); //<co id="callout-intro-countstream-index-1" />
 var countStream = new CountStream('book'); //<co id="callout-intro-countstream-index-2" />
-var http = require('http');
+var https = require('https');
 
-http.get('http://www.manning.com', function(res) { //<co id="callout-intro-countstream-index-3" />
+https.get('https://www.manning.com', function(res) { //<co id="callout-intro-countstream-index-3" />
   res.pipe(countStream); //<co id="callout-intro-countstream-index-4" />
 });
 
