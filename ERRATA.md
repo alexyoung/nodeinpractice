@@ -17,3 +17,22 @@ should be
 ```js
 lineIndex = this._buffer.indexOf('\n');
 ```
+
+### End of readable stream
+
+Implicitly passing undefined as chunk to readable.push does not properly inform consumer that data output is finished.
+Pass null instead.
+
+Page 92, Listing 5.4
+
+```js
+// Done
+this.push();
+```
+
+should be
+
+```js
+// Done
+this.push(null);
+```
