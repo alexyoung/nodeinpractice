@@ -13,7 +13,7 @@ function StatStream(limit) {
 StatStream.prototype._read = function(size) {
   if (this.limit === 0) {
     // Done
-    this.push();
+    this.push(null);
   } else {
     this.push(util.inspect(process.memoryUsage())); //<co id="callout-streams-express-2" />
     this.push('\n');
